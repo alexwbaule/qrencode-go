@@ -3,10 +3,10 @@ package qrencode
 type ECLevel int
 
 const (
-	ECLevelM = ECLevel(0)
-	ECLevelL = ECLevel(1)
-	ECLevelH = ECLevel(2)
-	ECLevelQ = ECLevel(3)
+	ECLevelL = ECLevel(0)
+	ECLevelM = ECLevel(1)
+	ECLevelQ = ECLevel(2)
+	ECLevelH = ECLevel(3)
 )
 
 func supportedECLevel(ecLevel ECLevel) bool {
